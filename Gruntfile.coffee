@@ -13,7 +13,7 @@ module.exports = (grunt) ->
           ext: '.js'
         ]
     watch:
-      files: ['source/*.coffee']
+      files: ['source/**/*.coffee']
       tasks: 'coffee'
 
   # gruntのパッケージを読み込みます
