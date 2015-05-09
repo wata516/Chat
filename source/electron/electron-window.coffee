@@ -1,4 +1,5 @@
 BrowserWindow = require('browser-window')
+url = require('url')
 
 module.exports = class ElectronWindow
   browser = null
@@ -9,5 +10,9 @@ module.exports = class ElectronWindow
 
   open: ->
     browser = new BrowserWindow({ width:800, height:600})
-    browser.loadUrl('http://yahoo.co.jp');
+    browser.loadUrl( url.format
+      protocol: 'file'
+      pathname: "../../static/index.html"
+      slashes: true
+      )
     handleEvents.call @
