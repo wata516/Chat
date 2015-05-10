@@ -12,5 +12,5 @@ class Chat extends ElectronApplication
     ViewProvider = new ChatViewProvider()
     MainWorkspace = new Workspace()
 
-  test:->
+  @test:->
     console.log "Test"
