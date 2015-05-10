@@ -1,0 +1,2 @@
+class WorkspaceElement extends HTMLElement
+  
