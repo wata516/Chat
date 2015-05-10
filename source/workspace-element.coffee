@@ -1,2 +1,3 @@
-class WorkspaceElement extends HTMLElement
-  
+
+module.exports =
+class WorkspaceElement #extends HTMLElement

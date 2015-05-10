@@ -1,9 +1,9 @@
+
+module.exports =
 class ViewProvider
   Views = []
-
-  AddView: (view)->
+  Add: (view)->
     Views.push view
   Generate: ->
     foreach = (Views,view)->
       view.Generate
- 

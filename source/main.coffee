@@ -1,7 +1,8 @@
-app = require('app')
-Chat = require('./chat')
+app = require 'app'
+Chat = require './chat'
 ElectronApplication = require './electron/electron-application'
 
 chat = null
 app.on 'ready',->
-  chat = (new Chat).start("");
+  chat = new Chat()
+  chat.start("")

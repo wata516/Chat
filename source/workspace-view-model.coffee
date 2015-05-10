@@ -1,6 +1,8 @@
 ViewModel = require './ChatBase/view-model'
 WorkspaceElement = require './workspace-element'
 
+module.exports =
 class WorkspaceViewModel extends ViewModel
-  construct ->
-    new WorkspaceElement
+  ViewProvider = null
+  construct: (Provider) ->
+    ViewProvider = Provider
