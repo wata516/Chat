@@ -1,6 +1,6 @@
 Remote = require('remote')
 
 window.onload = function() {
-  Chat = Remote.require('../resources/chat');
+  Chat = Remote.require('../source/chat');
   Chat.test();
 }
