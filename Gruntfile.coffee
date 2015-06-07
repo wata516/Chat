@@ -9,7 +9,7 @@ module.exports = (grunt) ->
           src: [
             '**/*.coffee'
           ]
-          dest: 'resources/'
+          dest: 'source/'
           ext: '.js'
         ]
     watch:
