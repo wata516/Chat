@@ -12,6 +12,9 @@ module.exports = (grunt) ->
           dest: 'source/'
           ext: '.js'
         ]
+    jasmine:
+      pivotal:
+        src: ['spec/**/*.coffee']
     watch:
       files: ['source/**/*.coffee']
       tasks: 'coffee'

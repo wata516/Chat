@@ -18,6 +18,7 @@
   "homepage": "https://github.com/wata516/Chat",
   "devDependencies": {
     "bootstrap": "^3.3.4",
+    "expect": "^1.6.0",
     "grunt": "^0.4.5",
     "grunt-contrib-coffee": "^0.13.0",
     "grunt-contrib-watch": "^0.6.1"
